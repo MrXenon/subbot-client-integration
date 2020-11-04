@@ -1,0 +1,115 @@
+.table-backend{
+    margin-top:30px;
+}
+.table-backend tr td{
+    background-color: #E9ECEF;
+}
+.spacing{
+    margin-top:30px !important;
+    margin-bottom:30px !important;
+}
+#wpfooter #footer-left, #wpfooter #footer-upgrade{
+    display:none;
+}
+.matras-info{
+    background-color: #4BC4E5;
+    border: 2px solid #154A89;
+    padding: 10px 0px 0px 10px;
+    height:650px;
+    position:fixed;
+    top:3600px;
+    right:20px;
+}
+.btn-maestro{
+    background-color: #154A89;
+    color: #fff;
+}
+.btn-maestro:hover{
+    background-color: #fff;
+    border: 2px solid #154A89;
+    color: #000;
+}
+.step {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #1784c9;
+    color: #ffffff;
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.matras-pijl{
+    height: 15px;
+    width: auto;
+    color:#1784c9;
+}
+.vormTonen{
+    height: 200px;
+    width: auto;
+}
+.kernTonen{
+    height: 100px;
+    width: auto;
+}
+.customizer-form-frontend hr{
+    background-color: #154A89;
+}
+.matras-customizer-container{
+    width:80%;
+}
+.matras-vorm{
+    margin: 0px 20px 10px 0px;
+}
+.matras-kern{
+    margin: 0px 20px 10px 0px;
+}
+.afmetingen{
+    width: 30%;
+}
+.textarea-backend{
+    width: 600px;
+    height: 150px;
+}
+.wrap textarea{
+    resize: none;
+    height:150px;
+}
+/* HIDE RADIO */
+.radio-hide {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* IMAGE STYLES */
+.radio-hide + img,.radio-hide + .rectangle {
+    cursor: pointer;
+}
+
+/* CHECKED STYLES */
+.radio-hide:checked + img, .radio-hide:checked + .rectangle {
+    box-shadow: -10px -10px 5px  #aaaaaa;
+}
+.rectangle{
+    margin-left: 20px;
+    margin-top: 10px;
+    height:150px;
+    width:150px;
+    padding-top: 40px;
+    background-color: #4BC4E5;
+    color: #fff;
+    font-weight: bold;
+}
+/*.sticky {*/
+    /*position: fixed;*/
+    /*top: 50px;*/
+    /*right: 10px;*/
+    /*height: 650px;*/
+/*}*/
+

@@ -1,0 +1,27 @@
+<?php
+
+/**
+ * Defenitions needed in the plugin
+ * 
+ * @author Kevin Schuit
+ * @version 1.0
+ * 
+ * Version history
+ * 1.0     Initial version
+ */
+// Verion has to be equal to the version in the subbot-client-integration.php file
+define ( 'SUBBOT_CLIENT_INTEGRATION_VERSION', '1.0.0' );
+// Minimum required Wordpress version for this plugin
+define ( 'SUBBOT_CLIENT_INTEGRATION_REQUIRED_WP_VERSION', '4.0' );
+define ( 'SUBBOT_CLIENT_INTEGRATION_PLUGIN_BASENAME', plugin_basename( SUBBOT_CLIENT_INTEGRATION_PLUGIN ) );
+define ( 'SUBBOT_CLIENT_INTEGRATION_PLUGIN_NAME', trim( dirname ( SUBBOT_CLIENT_INTEGRATION_PLUGIN_BASENAME ), '/' ) );
+// Folder Structure
+define ( 'SUBBOT_CLIENT_INTEGRATION_PLUGIN_DIR', untrailingslashit( dirname ( SUBBOT_CLIENT_INTEGRATION_PLUGIN ) ) );
+define ( 'SUBBOT_CLIENT_INTEGRATION_PLUGIN_INCLUDES_DIR', SUBBOT_CLIENT_INTEGRATION_PLUGIN_DIR . '/includes' );
+define('SUBBOT_CLIENT_INTEGRATION_PLUGIN_INCLUDES_BOOTSTRAP_DIR', SUBBOT_CLIENT_INTEGRATION_PLUGIN_INCLUDES_DIR . '/bootstrap');
+define ( 'SUBBOT_CLIENT_INTEGRATION_PLUGIN_INCLUDES_VIEWS_DIR', SUBBOT_CLIENT_INTEGRATION_PLUGIN_INCLUDES_DIR	. '/views'	);
+define ( 'SUBBOT_CLIENT_INTEGRATION_PLUGIN_MODEL_DIR', SUBBOT_CLIENT_INTEGRATION_PLUGIN_INCLUDES_DIR . '/model' );
+define ( 'SUBBOT_CLIENT_INTEGRATION_PLUGIN_ADMIN_DIR', SUBBOT_CLIENT_INTEGRATION_PLUGIN_DIR . '/admin' );
+define ( 'SUBBOT_CLIENT_INTEGRATION_PLUGIN_ADMIN_VIEWS_DIR', SUBBOT_CLIENT_INTEGRATION_PLUGIN_ADMIN_DIR . '/views' );
+
+?>
